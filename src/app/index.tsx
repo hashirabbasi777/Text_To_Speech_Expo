@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <TextInput 
+      <TextInput
         placeholder='Enter text' 
         style={styles.inputText} 
         multiline 
@@ -44,6 +44,8 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginBottom: 20,
     minHeight: 100,
+    padding: 10,
+    fontSize: 16,
   },
   button:{
     backgroundColor: '#000',
